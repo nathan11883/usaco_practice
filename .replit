@@ -1,2 +1,3 @@
 language = "bash"
-run = ""
+run = "python ./silver_2016/div7/div7.py"
+#run = "ls -l"
