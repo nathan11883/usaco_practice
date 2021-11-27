@@ -1,7 +1,7 @@
 """
 ID: nathand6
 LANG: PYTHON3
-TASK: subseq
+TASK: div7
 """
 root_path="./silver_2016/div7/"
 # When you run locally in replit, comment out the following line.
