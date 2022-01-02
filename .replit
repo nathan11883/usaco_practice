@@ -1,3 +1,7 @@
 language = "bash"
-run = "python ./silver_2017/hps/hps.py"
+#run = "python ./bronze_2021/single_breed/single.py"
+#run = "python ./bronze_2021/temperature/temperature.py"
+#run = "python ./bronze_2021/dis_path/distinct_path.py"
+#run = "python ./silver_2021/convolutedintervals/intrv.py"
+run = "python ./silver_2021/connectingtwobarns/barns.py"
 #run = "ls -l"
