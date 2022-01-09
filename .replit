@@ -5,5 +5,7 @@ language = "bash"
 #run = "python ./silver_2021/convolutedintervals/intrv.py"
 #run = "python ./silver_2021/connectingtwobarns/barns.py"
 #run = "python ./training_2.4_3_cowtour/cowtour.py"
-run="g++ ./training_2.4_3_cowtour/cowtour.cpp ; ./cowtour.out"
+
+#how to run cpp file
+run="clang++ -std=c++2a ./training_2.4_3_cowtour/cowtour.cpp -o ./cowtour.o  && ./cowtour.o && rm ./cowtour.o"
 #run = "ls -l"
