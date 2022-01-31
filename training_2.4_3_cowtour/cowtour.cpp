@@ -32,11 +32,12 @@ int main(){
   freopen("cowtour.in", "r", stdin);
   freopen("cowtour.out", "w", stdout);
   cin >> n;
-
+  
   for(int i=0; i<n; i++){
     cin >> x[i] >> y[i];
   }
-
+  
+  
   for(int i=0; i<n; i++){
     cin >> s;
     for(int j=0; j<n; j++){
@@ -53,6 +54,7 @@ int main(){
       }
     }
   }
+
 
 
 
